@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <label for="text">Enter text:</label>
+    <input id="text" type="text" />
+    <br />
+
+    <div class="tabs">
+      <button class="tab" id="upperCaseTab">Upper Case</button>
+      <button class="tab" id="lowerCaseTab">Lower Case</button>
+      <button class="tab" id="sentenceCaseTab">Sentence Case</button>
+      <button class="tab" id="titleCaseTab">Title Case</button>
+      <button class="tab" id="camelCaseTab">Camel Case</button>
+      <button class="tab" id="snakeCaseTab">Snake Case</button>
+      <button class="tab" id="kebabCaseTab">Kebab Case</button>
+      <button class="tab" id="pascalCaseTab">Pascal Case</button>
+    </div>
+
+    <div id="convertedText" class="converted-text"></div>
+    <button id="copy" class="copy-button">Copy</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

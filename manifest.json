@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "TextTransformer",
+  "version": "1.0",
+  "description": "TextTransformer is the perfect companion for developers and writers. Instantly convert text into multiple case styles including Pascal case, kebab case, and more",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}

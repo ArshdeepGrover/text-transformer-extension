@@ -25,7 +25,7 @@
 
 ## 📸 Screenshots
 
-![alt text](image.png)
+<img width="297" alt="image" src="https://github.com/user-attachments/assets/41154efb-5fae-44d7-9f88-e26d86bcea12" />
 
 ---
 

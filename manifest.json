@@ -1,10 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "TextTransformer",
+  "name": "Text Transform",
   "version": "1.0",
-  "description": "TextTransformer is the perfect companion for developers and writers. Instantly convert text into multiple case styles including Pascal case, kebab case, and more",
+  "description": "A simple text transformer Chrome extension.",
   "action": {
     "default_popup": "popup.html"
-  },
-  "permissions": ["clipboardWrite"]
+  }
 }

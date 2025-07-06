@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Text Transformer</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>TextTransformer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        width: 300px;
+      }
+      textarea {
+        width: 100%;
+        height: 80px;
+        margin-bottom: 10px;
+      }
+      button {
+        margin: 5px 5px 10px 0;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <div class="transformer-section">
-        <h1>Text Transformer</h1>
-        <label for="text">Enter text:</label>
-        <input id="text" type="text" placeholder="Type or paste text here..." />
-        
-        <div class="tabs">
-          <button class="tab" id="upperCaseTab">UPPER</button>
-          <button class="tab" id="lowerCaseTab">lower</button>
-          <button class="tab" id="sentenceCaseTab">Sentence</button>
-          <button class="tab" id="titleCaseTab">Title Case</button>
-          <button class="tab" id="camelCaseTab">camelCase</button>
-          <button class="tab" id="snakeCaseTab">snake_case</button>
-          <button class="tab" id="kebabCaseTab">kebab-case</button>
-          <button class="tab" id="pascalCaseTab">PascalCase</button>
-        </div>
+    <h2>Text Transformer</h2>
 
-        <div id="convertedText" class="converted-text" aria-live="polite"></div>
-        <button id="copy" class="copy-button">Copy to Clipboard</button>
-      </div>
+    <textarea id="inputText" placeholder="Enter your text here"></textarea>
+
+    <div>
+      <button id="pascalCaseBtn">Pascal Case</button>
+      <button id="kebabCaseBtn">Kebab Case</button>
     </div>
+
+    <textarea id="outputText" placeholder="Converted text"></textarea>
 
     <script src="popup.js"></script>
   </body>
